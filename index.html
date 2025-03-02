@@ -130,8 +130,8 @@
       <img src="static/images/method.png" 
            alt="Method Overview"
            style="width: 100%; height: auto; max-width: 960px; margin: 0 auto;">
-        <figcaption class="image-caption has-text-centered mt-3 has-text-grey">
-        The overview of CritiqueNav. In each step of reasoning, the embodied agent receives an instruction  $I$, a sequence of history images $H_t$, and the current observation image $X_t$. We process the instruction and images separately using a Tokenizer and a Vision Encoder to obtain instruction tokens(yellow blocks), historical image tokens(cyan blocks), and current image tokens(blue tokens). These tokens are then fed into the trained actor model to obtain the probability values for each action. For actions with high score, the corresponding action is selected as the final action for that step. For actions with lower score, the critique model is used to generate a critique and refined action. By iterating through this process step-by-step, the agent ultimately completes the navigation task
+        <figcaption class="content has-text-justified">
+        The overview of CritiqueNav. In each step of reasoning, the embodied agent receives an instruction I, a sequence of history images H_t, and the current observation image X_t. We process the instruction and images separately using a Tokenizer and a Vision Encoder to obtain instruction tokens(yellow blocks), historical image tokens(cyan blocks), and current image tokens(blue tokens). These tokens are then fed into the trained actor model to obtain the probability values for each action. For actions with high score, the corresponding action is selected as the final action for that step. For actions with lower score, the critique model is used to generate a critique and refined action. By iterating through this process step-by-step, the agent ultimately completes the navigation task.
       </figcaption>
     </div>
   </div>
